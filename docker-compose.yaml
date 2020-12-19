@@ -1,0 +1,9 @@
+version: "2"
+  services:
+    webserver:
+      build:
+      context: .
+      dockerfile: Dockerfile 
+      volume: 
+        - ./test:/etc
+
